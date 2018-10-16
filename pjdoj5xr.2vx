@@ -1,0 +1,79 @@
+﻿Imports MySql.Data
+Imports MySql.Data.MySqlClient
+Public Class DataPreview
+    Public connectionStr As String = "server=localhost;user id=root;password=root123;persistsecurityinfo=True;database=consolidate_index_db;connectiontimeout=300;allowbatch=True"
+    Private Sub DataPreview_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        cboData.SelectedIndex = 0
+    End Sub
+    Public Function DataSelection(ByVal str As String)
+        Dim result As String = ""
+        Select Case str
+            Case Is = "Cases Judicially Data"
+                result = "v_cases"
+            Case Is = "Legislations Judicially Data"
+                result = "v_legislations"
+            Case Is = "Subject Index Data"
+                result = "v_subject_index"
+            Case Else
+                str = "Select From List"
+                result = "NOSELECTION"
+        End Select
+        Return result
+    End Function
+
+    Public Function QuerySelection(ByVal selection As String) As String
+        Dim result As String = ""
+        Dim column As String = "datafilename, judgment_name, court_type, judge_name, judgment_language, citation"
+        If selection = "v_cases" Then
+            result = "select " & column & ", referred_citation, referred_title, referred_type from v_cases"
+        ElseIf selection = "v_legislations" Then
+            result = "select " & column & ", legis_title, legis_filename, legis_sub_type, legis_sub_no from v_legislations"
+        ElseIf selection = "v_subject_index" Then
+            result = "select " & column & ", summary, subject_index, level1, level2 from v_subject_index"
+        Else
+            result = ""
+        End If
+        Return result
+    End Function
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnLoad.Click
+        Call InitiateDatabaseData(DataSelection(cboData.Text))
+    End Sub
+    Private Sub InitiateDatabaseData(ByVal selection As String)
+        Dim mySqlConn As New MySqlConnection
+        Dim query As String = ""
+        Dim da As New MySqlDataAdapter
+        Dim cmd As New MySqlCommand
+        Dim dt As New DataTable
+        Dim dSource As New BindingSource
+        mySqlConn.ConnectionString = connectionStr
+
+
+        Try
+
+            mySqlConn.Open()
+            query = QuerySelection(selection)
+            cmd = New MySqlCommand(query, mySqlConn)
+            da.SelectCommand = cmd
+            da.Fill(dt)
+            dSource.DataSource = dt
+            dataGrid.DataSource = dSource
+            dataGrid.Update()
+        Catch ex As Exception
+
+        Finally
+            mySqlConn.Dispose()
+        End Try
+    End Sub
+
+    Private Sub dataGrid_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dataGrid.CellContentClick
+        'TextBox1.Text = dataGrid.SelectedColumns.Item(2).ToString
+        'TextBox2.Text = dataGrid.SelectedRows(2).ToString
+        'TextBox3.Text = dataGrid.SelectedRows(3).ToString
+        'TextBox4.Text = dataGrid.SelectedRows(4).ToString
+        'TextBox5.Text = dataGrid.SelectedRows(5).ToString
+    End Sub
+
+    Private Sub dataGrid_SelectionChanged(sender As Object, e As EventArgs) Handles dataGrid.SelectionChanged
+        MsgBox(dataGrid.Item("datafilename", 0).ToString)
+    End Sub
+End Class

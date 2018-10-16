@@ -1,0 +1,9 @@
+﻿Public Class Configuration_Form
+
+    Private Sub Configuration_Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+
+
+End Class

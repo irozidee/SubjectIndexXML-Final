@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rtbInput.Text" xml:space="preserve">
+    <value>&lt;REFERRED_CASES&gt;&lt;p&gt;&lt;b&gt;Case(s) referred to:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Aik Ming (M) Sdn Bhd &amp;amp; Ors v. Chang Ching Chuen &amp;amp; Ors &amp;amp; Another Case &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_1995_1_546;"&gt;[1995] 1 MLRA 546&lt;/LINK&gt;; [1995] 2 MLJ 770; [1995] 3 CLJ 639; [1995] 3 AMR 2375&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Alfred Templeton &amp;amp; Ors v. Low Yat Holdings Sdn Bhd &amp;amp; Anor &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_1989_1_144;"&gt;[1989] 1 MLRH 144&lt;/LINK&gt;; [1989] 1 CLJ 693 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Armagas Ltd v. Mundogas SA (The "Ocean Frost") [1985] 1 CA 1 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Bank Bumiputra Bhd v. Malek &amp;amp; Joseph Au &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_1995_4_710;"&gt;[1995] 4 MLRH 710&lt;/LINK&gt;; [1995] 4 MLJ 251 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Boustead Trading (1985) Sdn Bhd v. Arab-Merchant Bank Berhad [1985] 4 CLJ 283 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Charles Rickards LD v. Oppenhaim [1950] 1 KB 616 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;China and South Sea Bank Ltd v. Tan [1989] 3 All ER 839 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;China Airlines Limited v. Maltran Air Corporation Sdn Bhd (formerly known as Maltran Air Services Corporation Sdn Bhd) and Anor Appeal [1996] 2 AMR 223 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Chong Kow v. Kesavan Govindasamy [2009] 8 MLJ 41 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Combe v. Combe [1951] 2 KB 215 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Cooperative Central Bank Ltd v. Meng Kuang Properties Bhd &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_1990_3_255;"&gt;[1990] 3 MLRH 255&lt;/LINK&gt;; [1991] 2 MLJ 283; [1991] 2 CLJ 467 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Cryne v. Barclays Bank plc [1987] BCLC 548 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Cuckmere Brick Co Ltd &amp;amp; Another v. Mutual Finance Ltd (C.A.) [1971] 1 Ch. 949 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Dato' Abd Rahim Mohamad v. Abdul Farish Rashid &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_2008_2_607;"&gt;[2008] 2 MLRA 607&lt;/LINK&gt;; [2009] 1 CLJ 395 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Deokali Koer v. Kedar Nath [1912] 39 Cal 704 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Deverges v. Sandeman, Clark &amp;amp; Co [1902] 1 Ch 579 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Dick Bentley Productions, Ltd &amp;amp; Anor v. Harold Smith (Motors) Ltd [1965] 2 All ER 65 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Eastern &amp;amp; Oriental Hotel (1951) Sdn Bhd v. Ellarious George Fernandez &amp;amp; Anor &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_1987_1_665;"&gt;[1987] 1 MLRA 665&lt;/LINK&gt;; [1989] 1 MLJ 35; [1988] 1 CLJ 50 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Gan Eng San &amp;amp; Anor v. Alliance Investment Bank &amp;amp; Ors [2010] 7 MLJ 615 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Gek Lau Choon Theatrical Company v. Hu Kiang Yan [1937] Vol VI MLJ 25 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Grace Shipping Inc &amp;amp; Anor v. CF Sharp &amp;amp; Co (Malaya) Pte Ltd &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_1986_1_572;"&gt;[1986] 1 MLRA 572&lt;/LINK&gt;; [1987] 1 MLJ 257 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Guthrie Sdn Bhd v. Trans-Malaysian Leasing Corp Bhd &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_1990_1_532;"&gt;[1990] 1 MLRA 532&lt;/LINK&gt;; [1991] 1 MLJ 33; [1991] 1 CLJ 155 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Hartela Contractors Ltd v. Hartecon JV Sdn Bhd &amp;amp; Anor [1999] 2 MLJ 481 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Hartley v. Hymans [1920] 3 KB 475 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Heilbut, Symons &amp;amp; Co v. Buckleton [1913] AC 30 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Hiap Huat Pottery (S) Pte Ltd v. TV Media Pte Ltd [1999] 1 SLR 14 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Hock Huat Iron Foundry v. Naga Tembaga Sdn Bhd &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_1998_2_356;"&gt;[1998] 2 MLRA 356&lt;/LINK&gt;; [1999] 1 MLJ 65; [1999] 1 CLJ 89; [1999] 1 AMR 193 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Hoyt's Pty Ltd v. Spencer [1919] 27 CLR 133 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Industrial &amp;amp; Agricultural Distribution Sdn Bhd v. Golden Sands Construction Sdn Bhd &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_1993_5_610;"&gt;[1993] 5 MLRH 610&lt;/LINK&gt;; [1993] 3 MLJ 433 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;J Evans &amp;amp; Son (Portsmouth) Ltd v. Andrea Merzario Ltd [1976] 1 WLR 1078 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Kandasami v. Mohamed Mustafa [1983] 2 MLJ 85 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Kejuruteraan Bintai Kindenko Sdn Bhd v. Nam Fatt Construction Sdn Bhd &amp;amp; Anor &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_2011_1_453;"&gt;[2011] 1 MLRA 453&lt;/LINK&gt;; [2011] 7 CLJ 442 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Kong Ming Bank Bhd v. Leong Ho Yuen &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_1981_1_689;"&gt;[1981] 1 MLRA 689&lt;/LINK&gt;; [1982] 2 MLJ 111 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Latham v. Credit Suisse First Boston [2000] 2 SLR 693 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_2010_10_615;"&gt;Lin Wen-Chih &amp;amp; Lin Wen-Chuan v. Mycom Berhad [2010] 10 MLRH 615&lt;/LINK&gt;5 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_1997_1_72;"&gt;Malayan Banking Bhd v. Lim Poh Ho &amp;amp; Anor [1997] 1 MLRA 72&lt;/LINK&gt;; [1997] 1 MLJ 662; [1997] 2 CLJ 516; [1997] 2 AMR 1597 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Miller v. Cook [1870] LR 10 Eq 641 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_2009_11_1;"&gt;Pengkalen Securities Sdn Bhd v. Kemas Ria Sdn Bhd &amp;amp; Datuk David Yeoh Eng Hock [2009] 11 MLRH 1&lt;/LINK&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Pengurusan Danaharta Nasional Bhd v. Miri Salamjaya Sdn Bhd &amp;amp; Ors [2004] 4 MLJ 327 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_2010_12_312;"&gt;Public Bank Berhad v. Rahmat Bin Harun [2010] 12 MLRH 312&lt;/LINK&gt;3 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_2006_5_446;"&gt;RHB Bank Bhd (formerly known as DCB Bank Bhd) v. Samaworld Asia Sdn Bhd &amp;amp; Anor [2006] 5 MLRH 446&lt;/LINK&gt;; [2007] 3 MLJ 170 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_2007_2_781;"&gt;Sabu Development Sdn Bhd v. Kelik Bayel [2007] 2 MLRH 781&lt;/LINK&gt;; [2007] 8 MLJ 264; [2007] 9 CLJ 475 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_1998_2_183;"&gt;Sakapp Commodities (M) Sdn Bhd v. Cecil Abraham [1998] 2 MLRA 183&lt;/LINK&gt;; [1998] 4 MLJ 651; [1998] 4 CLJ 812; [1999] 2 AMR 1236 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_2008_2_224;"&gt;Samaworld Asia Sdn Bhd &amp;amp; Anor v. RHB Bank Bhd [2008] 2 MLRA 224&lt;/LINK&gt;; [2008] 6 CLJ 44 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Sanyan Lumber Sdn Bhd v. Sanyan Wood Industires Sdn Bhd &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_2008_5_663;"&gt;[2008] 5 MLRH 663&lt;/LINK&gt;; [2008] 8 MLJ 336 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Satriadesa Corporation Sdn. Bhd. v. Kerajaan Malaysia and Anor &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Scottish Hydro-Electric plc v. Ismestieff and another [1999] All ER (D) 1453 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Seow Mui Kim v. Perwira Habib Bank &amp;amp; Ors [1987] 1 MLJ 46 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Seven Seas Industries Sdn Bhd v. Philips Electronic Supplies (M) Sdn Bhd &amp;amp; Anor &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRA_2008_1_316;"&gt;[2008] 1 MLRA 316&lt;/LINK&gt;; [2008] 5 MLJ 157; [2008] 4 CLJ 217; [2000] 2 AMR 2005 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Sharikat Eastern Plastics Industry v. Sharikat Lam Seng Trading &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_1971_1_153;"&gt;[1971] 1 MLRH 153&lt;/LINK&gt;; [1972] 1 MLJ 21 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Silven Properties Ltd and another v. Royal Bank of Scotland plc and others [2004] 4 All ER 484 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Tan Chong &amp;amp; Sons Motor Company (Sdn) Bhd v. Alan McKnight [1983] 1 MLJ 220 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Tan Swee Hoe Co Ltd v. Ali Hussain Bros [1980] 2 MLJ 16 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Tindok Besar Estate Sdn Bhd v. Tinjar Co &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Udayakumar a/l Suppiah v. Ganga Tharan a/l Shnmugam &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_2010_14_548;"&gt;[2010] 14 MLRH 548&lt;/LINK&gt;; [2011] 7 MLJ 429 &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Waja Manufacutring (M) Sdn Bhd &amp;amp; 4 Ors v. Alliance Bank Malaysia Berhad (yet to be reported)&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Wong Kup Sing v. Jeram Rubber Estates Ltd &lt;LINK HREF="case_notes/showcase.aspx?pageid=MLRH_1969_1_297;"&gt;[1969] 1 MLRH 297&lt;/LINK&gt;; [1969] 1 MLJ 245 &lt;/i&gt;&lt;/p&gt;&lt;/REFERRED_CASES&gt;</value>
+  </data>
+</root>
